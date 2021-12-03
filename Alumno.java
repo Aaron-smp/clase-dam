@@ -44,4 +44,8 @@ public class Alumno {
     public String getNombreUsuarioGithub() {
         return nombre.substring(0, 3) + numeroMatricula.substring(0, 4);
     }
+    public String getAtributosAlumno(){
+        String Alumno = nombre + "(" + numeroMatricula + ")" + "- " + edad + " años";
+        return Alumno;
+    }
 }
